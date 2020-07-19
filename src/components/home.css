@@ -1,0 +1,25 @@
+.home {
+  margin-top: 60px;
+}
+
+.home-title {
+  font-size: 44px;
+}
+
+.home section {
+  margin-left: 60px;
+  font-size: 32px;
+}
+
+.home-link {
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}
+
+.dark .home-link {
+  color: grey;
+}
+
+.home-icon {
+  cursor: pointer;
+}
