@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 
+import ThemeToggle from "./toggle";
 import "./home.css";
 
 const LINKS = [
@@ -11,19 +12,11 @@ const LINKS = [
 ];
 
 function Home() {
-  const toggleTheme = (e) => {
-    e.preventDefault();
-    document.body.classList.toggle("dark");
-  };
-
   return (
     <div className="home">
       <header>
         <h1 className="home-title">
-          <span onClick={toggleTheme} className="home-icon">
-            🏕
-          </span>{" "}
-          digi0ps
+          <ThemeToggle /> digi0ps
         </h1>
       </header>
       <section>
