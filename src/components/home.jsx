@@ -4,10 +4,10 @@ import { Link } from "@reach/router";
 import "./home.css";
 
 const LINKS = [
-  ["ls /blog", "/blog"],
-  ["ls /projects", "/projects"],
-  ["cat contact.md", "/contact"],
-  ["whoami", "/whoami"],
+  ["ls ", "blog", "/blog"],
+  ["ls ", "projects", "/projects"],
+  ["cat ", "contact", "/contact"],
+  ["", "whoami", "/whoami"],
 ];
 
 function Home() {
@@ -27,12 +27,13 @@ function Home() {
         </h1>
       </header>
       <section>
-        {LINKS.map(([text, url]) => (
-          <div className="home-link">
+        {LINKS.map(([light, bold, url]) => (
+          <li className="home-link">
             <Link to={url}>
-              {">"} {text}
+              <span className="light">{light}</span>
+              {bold}
             </Link>
-          </div>
+          </li>
         ))}
       </section>
     </div>

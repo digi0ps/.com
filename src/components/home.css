@@ -4,20 +4,38 @@
 
 .home-title {
   font-size: 44px;
+  font-family: "Fira Code", monospace;
+  font-weight: 700;
 }
 
 .home section {
-  margin-left: 60px;
-  font-size: 32px;
+  margin-left: 75px;
+  font-size: 28px;
 }
 
 .home-link {
-  color: #3a3a3a;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  list-style-type: none;
 }
 
-.dark .home-link {
-  color: grey;
+.home-link span.light {
+  color: #4a4a4a;
+}
+
+.dark .home-link span.light {
+  color: #cacaca;
+}
+
+.home-link::before {
+  content: ">";
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
 }
 
 .home-icon {
