@@ -10,7 +10,7 @@ function Toggle() {
   };
 
   return (
-    <span style={{ cursor: "pointer" }} onClick={toggleTheme}>
+    <span classname="pointer no-select" onClick={toggleTheme}>
       {/* {mode === "light" ? "🌋" : "🗻"} */}
       {mode === "light" ? "⛅" : "✨"}
     </span>

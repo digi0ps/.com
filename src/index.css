@@ -1,8 +1,10 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin: 30px 100px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  margin: 30px 10rem;
+  font-family: "Fira Code", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -17,7 +19,6 @@ code {
 
 .dark {
   background-color: #121212;
-  color: #fafafa;
 }
 
 .dark * {
@@ -28,4 +29,25 @@ a,
 a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-select {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
+  html {
+    font-size: 37.5%;
+  }
 }
