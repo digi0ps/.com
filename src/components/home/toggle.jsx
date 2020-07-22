@@ -10,8 +10,7 @@ function Toggle() {
   };
 
   return (
-    <span classname="pointer no-select" onClick={toggleTheme}>
-      {/* {mode === "light" ? "🌋" : "🗻"} */}
+    <span className="pointer no-select" onClick={toggleTheme}>
       {mode === "light" ? "⛅" : "✨"}
     </span>
   );

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 30px 10rem;
+  margin: 7rem;
   font-family: "Fira Code", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,5 +49,9 @@ a:visited {
 @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
   html {
     font-size: 37.5%;
+  }
+
+  body {
+    margin: 6rem;
   }
 }
