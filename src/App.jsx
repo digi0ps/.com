@@ -4,13 +4,13 @@ import { Router } from "@reach/router";
 // Components
 import Home from "./components/home";
 import NotFound from "./components/not-found";
-import About from "./components/about";
+import WhoAmI from "./components/whoami";
 
 function App() {
   return (
     <Router>
       <Home path="/" exact />
-      <About path="/whoami" exact />
+      <WhoAmI path="/whoami" exact />
       <NotFound default />
     </Router>
   );
