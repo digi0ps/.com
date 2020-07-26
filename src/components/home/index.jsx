@@ -5,7 +5,7 @@ import { ThemeToggle } from "../common";
 import "./home.css";
 
 const LINKS = [
-  ["ls ", "blog", "/blog"],
+  ["open ", "blog", "/blog"],
   ["ls ", "projects", "/projects"],
   ["cat ", "contact", "/contact"],
   ["", "whoami", "/whoami"],

@@ -45,6 +45,7 @@ h1.standard {
 .no-select {
   -moz-user-select: none;
   -webkit-user-select: none;
+  user-select: none;
 }
 
 @media only screen and (min-device-width: 401px) and (max-device-width: 600px) {
