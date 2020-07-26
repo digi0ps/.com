@@ -3,6 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { THEME_KEY } from "./constants";
+
+{
+  if (localStorage[THEME_KEY] === "dark") {
+    document.body.classList.add("dark");
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>

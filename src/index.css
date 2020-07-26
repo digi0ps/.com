@@ -39,6 +39,7 @@ a:visited {
 h1.standard {
   font-weight: 700;
   font-size: 4.4rem;
+  margin-top: 0px;
 }
 
 .no-select {

@@ -1,10 +1,12 @@
 import React from "react";
 import "./whoami.sass";
+import { BackToHome } from "../common";
 
 function About() {
   return (
     <div className="whoami">
       <header>
+        <BackToHome />
         <h1 className="standard">About</h1>
       </header>
       <article>

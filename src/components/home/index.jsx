@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 
-import ThemeToggle from "./toggle";
+import { ThemeToggle } from "../common";
 import "./home.css";
 
 const LINKS = [

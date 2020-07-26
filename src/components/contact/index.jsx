@@ -1,10 +1,12 @@
 import React from "react";
 import "./contact.sass";
+import { BackToHome } from "../common";
 
 function Contact() {
   return (
     <main className="contact">
       <header>
+        <BackToHome />
         <h1 className="standard">Contact</h1>
       </header>
       <section>
