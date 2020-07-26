@@ -4,6 +4,9 @@ import "./whoami.sass";
 function About() {
   return (
     <div className="whoami">
+      <header>
+        <h1 className="standard">About</h1>
+      </header>
       <article>
         <p>
           Hello there stranger. Thank you for coming here to read about it me.

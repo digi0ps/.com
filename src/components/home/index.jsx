@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="home">
       <header>
-        <h1 className="home-title no-select">
+        <h1 className="home-title no-select standard">
           <ThemeToggle /> digi0ps
         </h1>
       </header>

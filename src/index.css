@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 7rem;
+  font-size: 2rem;
   font-family: "Fira Code", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,6 +34,11 @@ a:visited {
 
 .pointer {
   cursor: pointer;
+}
+
+h1.standard {
+  font-weight: 700;
+  font-size: 4.4rem;
 }
 
 .no-select {
