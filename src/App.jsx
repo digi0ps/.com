@@ -7,6 +7,7 @@ import NotFound from "./components/not-found";
 import WhoAmI from "./components/whoami";
 import Contact from "./components/contact";
 import Blog from "./components/blog";
+import Work from "./components/work";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home path="/" exact />
       <WhoAmI path="/whoami" exact />
       <Contact path="/contact" exact />
+      <Work path="/work" exact />
       <Blog path="/blog" exact />
       <NotFound default />
     </Router>

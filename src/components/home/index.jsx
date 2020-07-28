@@ -6,7 +6,7 @@ import "./home.css";
 
 const LINKS = [
   ["open ", "blog", "/blog"],
-  ["ls ", "projects", "/projects"],
+  ["ls ", "work", "/work"],
   ["cat ", "contact", "/contact"],
   ["", "whoami", "/whoami"],
 ];

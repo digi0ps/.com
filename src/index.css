@@ -42,6 +42,12 @@ h1.standard {
   margin-top: 0px;
 }
 
+h2.standard {
+  font-weight: bold;
+  font-size: 3.4rem;
+  margin-top: 0px;
+}
+
 .no-select {
   -moz-user-select: none;
   -webkit-user-select: none;
