@@ -30,14 +30,15 @@ export const PROJECTS = [
     github: "https://github.com/typeforslack/",
     description: `
     An open-source project aimed at improving an user’s typing skills though 
-    various practice modes and races with other users having multiple services
-    written in Django and Node`,
+    various practice modes and multiplayer races implemented using multiple 
+    services written in Django and Node`,
   },
   {
     company: "Uniqna",
     github: "https://github.com/typeforslack/",
     description: `
-    A project which acted as a forum for students in universities, my first big
-    project which using django to build the entire system from scratch`,
+    An website for university students which acts as a forum for each university.
+    Wrote all features from scratch with backend being a Django monolith and a 
+    plain vanilla frontend`,
   },
 ];

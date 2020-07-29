@@ -46,6 +46,11 @@ h2.standard {
   font-weight: bold;
   font-size: 3.4rem;
   margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+svg {
+  vertical-align: middle;
 }
 
 .no-select {

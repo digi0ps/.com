@@ -28,10 +28,10 @@ function About() {
           clean readable code.
         </p>
         <p>
-          Apart from work, I love COFFEE :coffee:. I love to savour and make
-          various varieties of coffee but filter coffee is the best. I also love
-          not just driving but also reading about Cars. Sometimes I wander off
-          in the internet, learning about topics ranging from biology to space.
+          Apart from work, I love COFFEE ☕️. I love to savour and make various
+          varieties of coffee but filter coffee is the best. I also love not
+          just driving but also reading about Cars. Sometimes I wander off in
+          the internet, learning about topics ranging from biology to space.
           (cue: kurzegast)
         </p>
         <p>
