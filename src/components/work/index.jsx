@@ -12,13 +12,17 @@ function Work() {
         <BackToHome />
         <h1 className="standard">Work</h1>
       </header>
+
       <h2 className="standard">Experience</h2>
       <section>
         {WORK.map((exp) => (
           <Item {...exp} />
         ))}
       </section>
-      <h2 className="standard">Projects</h2>
+
+      <h2 className="standard" id="projectsHeader">
+        Projects
+      </h2>
       <section>
         {PROJECTS.map((exp) => (
           <Item {...exp} />

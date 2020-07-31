@@ -5,15 +5,23 @@ const COLORS = {
   twitter: "#1DA1F2",
   github: "#199B3D",
   linkedin: "#006097",
+  kurzgesagt: "#843FCB",
+  chennai: "#ffa931",
+  coffee: "#9c5518",
+  gojek: "#218838",
 };
 
 function OutsideLink({ href, children, color }) {
+  const style = {
+    color: COLORS[color || children.toLowerCase()],
+  };
+
   return (
     <a
       className="outside-link"
       href={href}
       target="_blank"
-      style={{ color: COLORS[color] }}
+      style={style}
       rel="noopener noreferrer"
     >
       {children}

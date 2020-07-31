@@ -66,13 +66,13 @@ svg {
 
 @media only screen and (max-device-width: 1200px) {
   body {
-    width: 50%;
+    width: 60%;
   }
 }
 
 @media only screen and (max-device-width: 800px) {
   body {
-    width: 60%;
+    width: 70%;
   }
 }
 
