@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   transition: color ease-in-out 0.25s;
   transition: background-color ease-in-out 0.25s;
+  width: 40%;
 }
 
 code {
@@ -34,7 +35,6 @@ a:visited {
 
 .outside-link:hover {
   border-bottom: 0.25rem currentColor solid;
-  /* background-color: currentColor; */
 }
 
 .pointer {
@@ -64,18 +64,36 @@ svg {
   user-select: none;
 }
 
+@media only screen and (max-device-width: 1200px) {
+  body {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  body {
+    width: 60%;
+  }
+}
+
 @media only screen and (min-device-width: 401px) and (max-device-width: 600px) {
   html {
     font-size: 50%;
+  }
+
+  body {
+    margin-left: 8rem;
+    width: 70%;
   }
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
   html {
-    font-size: 37.5%;
+    font-size: 44%;
   }
 
   body {
     margin: 6rem;
+    width: 80%;
   }
 }

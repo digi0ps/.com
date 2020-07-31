@@ -32,12 +32,8 @@ function About() {
           varieties of coffee but filter coffee is the best. I also love not
           just driving but also reading about Cars. Sometimes I wander off in
           the internet, learning about topics ranging from biology to space.
-          (cue: kurzegast)
-        </p>
-        <p>
-          There is something about simple and efficient things which fascinate
-          me. Like how using the exhaust gas to increase the combustion in a
-          turbocharger, or how{" "}
+          (cue: kurzegast). There is something about simple and efficient things
+          which fascinate me.
         </p>
       </article>
     </div>

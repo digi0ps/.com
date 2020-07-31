@@ -12,8 +12,8 @@ function Contact() {
       </header>
       <section>
         <p>
-          Interested in talking with me or just want to see me preach? Here are
-          the places I'm active at :man_shrugging: -
+          Interested in talking with me or just want to follow me? Here are the
+          places I'm active at
         </p>
         <div className="list">
           <div className="list-item">
