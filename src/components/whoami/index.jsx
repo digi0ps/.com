@@ -29,7 +29,7 @@ function About() {
           crossing 100k rpm and writing clean readable code.
         </p>
         <p>
-          Apart from work, I love COFFEE ☕️. I love to savour and make various
+          Apart from work, I love COFFEE. I love to savour and make various
           varieties of coffee but{" "}
           <OLA
             href="https://en.wikipedia.org/wiki/Indian_filter_coffee"
