@@ -32,6 +32,11 @@ a:visited {
   text-decoration: none;
 }
 
+.outside-link:hover {
+  border-bottom: 0.25rem currentColor solid;
+  /* background-color: currentColor; */
+}
+
 .pointer {
   cursor: pointer;
 }
