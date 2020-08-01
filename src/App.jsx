@@ -8,6 +8,7 @@ import WhoAmI from "./components/whoami";
 import Contact from "./components/contact";
 import Blog from "./components/blog";
 import Work from "./components/work";
+import Changelog from "./components/changelog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Contact path="/contact" exact />
       <Work path="/work" exact />
       <Blog path="/blog" exact />
+      <Changelog path="/changelog" exact />
       <NotFound default />
     </Router>
   );
