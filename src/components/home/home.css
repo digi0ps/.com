@@ -34,3 +34,11 @@
 .home-icon {
   cursor: pointer;
 }
+
+.version {
+  position: absolute;
+  filter: opacity(0.75);
+  bottom: 5px;
+  right: 5px;
+  font-size: 14px;
+}

@@ -3,6 +3,7 @@ import { Link } from "@reach/router";
 
 import { ThemeToggle } from "../common";
 import "./home.css";
+import Version from "./version";
 
 const LINKS = [
   ["open ", "blog", "/blog"],
@@ -29,6 +30,7 @@ function Home() {
           </li>
         ))}
       </section>
+      <Version />
     </div>
   );
 }
