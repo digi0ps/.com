@@ -20,7 +20,7 @@ function Contact() {
             <span className="list-icon">
               <Mail color="currentcolor" size={"1.8rem"} />
             </span>
-            You can drop me a mail at{" "}
+            <span className="hide-1120">u can drop me a mail at </span>
             <OLA color="gmail" href="mailto:sriru1998@gmail.com">
               sriru1998 at gmail.com
             </OLA>
@@ -30,7 +30,9 @@ function Contact() {
             <span className="list-icon">
               <Twitter color="currentcolor" size={"1.8rem"} />
             </span>
-            I retweet mostly and seldom drop original thoughts{" "}
+            <span className="hide-1120">
+              I retweet mostly and seldom drop original thoughts{" "}
+            </span>
             <OLA color="twitter" href="https://twitter.com/digi0ps">
               @digi0ps
             </OLA>
@@ -40,9 +42,10 @@ function Contact() {
             <span className="list-icon">
               <GitHub color="currentcolor" size={"1.8rem"} />
             </span>
-            You can see me write all sorts of code in{" "}
+            <span className="hide-1120">
+              You can see me write all sorts of code in{" "}
+            </span>
             <OLA color="github" href="https://github.com/digi0ps">
-              {" "}
               github/digi0ps{" "}
             </OLA>
           </div>
@@ -51,10 +54,17 @@ function Contact() {
             <span className="list-icon">
               <Linkedin color="currentcolor" size={"1.8rem"} />
             </span>
-            Find a more descriptive version of my resume in{" "}
-            <OLA color="linkedin" href="https://linkedin.com/in/digi0ps">
-              LinkedIn
-            </OLA>
+            <span className="hide-1120">
+              Find a more descriptive version of my resume in{" "}
+              <OLA color="linkedin" href="https://linkedin.com/in/digi0ps">
+                LinkedIn
+              </OLA>
+            </span>
+            <span className="show-1120">
+              <OLA color="linkedin" href="https://linkedin.com/in/digi0ps">
+                Sriram Ravichandran
+              </OLA>
+            </span>
           </div>
         </div>
       </section>

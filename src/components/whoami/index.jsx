@@ -4,7 +4,7 @@ import { BackToHome, OLA } from "../common";
 
 function About() {
   return (
-    <div className="whoami">
+    <main className="whoami">
       <header>
         <BackToHome />
         <h1 className="standard">About</h1>
@@ -45,7 +45,7 @@ function About() {
           me.
         </p>
       </article>
-    </div>
+    </main>
   );
 }
 

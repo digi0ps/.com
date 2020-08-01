@@ -11,7 +11,7 @@ body {
   background-color: #fafafa;
   transition: color ease-in-out 0.25s;
   transition: background-color ease-in-out 0.25s;
-  width: 40%;
+  width: 50%;
 }
 
 code {
@@ -51,7 +51,7 @@ h2.standard {
   font-weight: bold;
   font-size: 3.4rem;
   margin-top: 0px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 svg {
@@ -64,9 +64,13 @@ svg {
   user-select: none;
 }
 
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 800px) and (max-device-width: 1350px) {
   body {
     width: 60%;
+  }
+
+  main.whoami {
+    width: 90%;
   }
 }
 
@@ -76,24 +80,43 @@ svg {
   }
 }
 
-@media only screen and (min-device-width: 401px) and (max-device-width: 600px) {
+@media only screen and (min-device-width: 450px) and (max-device-width: 700px) {
   html {
     font-size: 50%;
   }
 
   body {
     margin-left: 8rem;
-    width: 70%;
+    width: 80%;
   }
 }
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 450px) {
   html {
-    font-size: 44%;
+    font-size: 48.5%;
   }
 
   body {
     margin: 6rem;
+    margin-left: 3rem;
     width: 80%;
+  }
+}
+
+.hide-1120 {
+  display: none;
+}
+
+.show-1120 {
+  display: inline;
+}
+
+@media only screen and (min-device-width: 1120px) {
+  .hide-1120 {
+    display: initial;
+  }
+
+  .show-1120 {
+    display: none;
   }
 }
