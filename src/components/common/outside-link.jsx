@@ -9,6 +9,7 @@ const COLORS = {
   chennai: "#ffa931",
   coffee: "#9c5518",
   gojek: "#218838",
+  resume: "#000",
 };
 
 function OutsideLink({ href, children, color }) {
@@ -18,7 +19,7 @@ function OutsideLink({ href, children, color }) {
 
   return (
     <a
-      className="outside-link"
+      className="outside-link pointer"
       href={href}
       target="_blank"
       style={style}
