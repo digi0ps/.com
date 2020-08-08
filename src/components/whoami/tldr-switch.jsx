@@ -7,7 +7,7 @@ function Switch({ handleChange, isChecked }) {
   }
 
   return (
-    <div>
+    <div className="tldr">
       <label>tldr?</label>
       <div className={classes} onClick={handleChange}>
         <div className="toggle-track"></div>

@@ -15,8 +15,10 @@ function About() {
     <main className="whoami">
       <header>
         <BackToHome />
-        <h1 className="standard">About</h1>
-        <TLDRSwitch handleChange={handleChange} isChecked={tldrMode} />
+        <h1 className="standard">
+          About
+          <TLDRSwitch handleChange={handleChange} isChecked={tldrMode} />
+        </h1>
       </header>
       {tldrMode ? <ShortArticle /> : <LongArticle />}
     </main>
