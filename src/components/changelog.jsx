@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "react-markdown";
-import changelog from "./CHANGELOG.md";
+import changelog from "../CHANGELOG.md";
 import { BackToHome } from "./common";
 
 function Changelog() {

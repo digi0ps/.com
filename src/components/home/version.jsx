@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "@reach/router";
 
 function Version() {
-  const codedVersion = "0.2.3";
+  const codedVersion = "0.3.0";
   const envVersion = process.env.REACT_APP_VERSION || "0.1.0";
   const version = envVersion > codedVersion ? envVersion : codedVersion;
 
-  const z = process.env.REACT_APP_ZL || "2020-07-26T10:23:00";
+  const z = process.env.REACT_APP_ZL || "2020-07-26T22:00:00";
   const l = new Date(z).getTime();
   const n = new Date().getTime();
   const d = Math.floor((n - l) / 1000 / 60 / 60 / 24);

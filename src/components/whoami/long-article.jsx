@@ -5,7 +5,7 @@ function LongArticle() {
   return (
     <article>
       <p>
-        Hello there stranger. Thank you for coming here to read about it me. My
+        Hello there stranger. Thank you for coming here to read about me. My
         name is Sriram and I come from the wonderful city of{" "}
         <OLA href="https://en.wikipedia.org/wiki/Chennai">Chennai</OLA> in
         India. I’m graduating this year with a major in Computer Science from

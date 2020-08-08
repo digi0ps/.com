@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v0.3.0 - August 8th 2020
+- Added grab my resume
+- Added a TLDR toggle to whoami
+
 ### v0.2.3 - August 2nd 2020
 - Added Version 
 - Added Changelog
