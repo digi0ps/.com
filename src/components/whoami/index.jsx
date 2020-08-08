@@ -8,7 +8,7 @@ import { BackToHome } from "../common";
 function About() {
   const [tldrMode, setTldrMode] = React.useState(false);
   const handleChange = (e) => {
-    setTldrMode(e.target.checked);
+    setTldrMode(!tldrMode);
   };
 
   return (
@@ -16,7 +16,7 @@ function About() {
       <header>
         <BackToHome />
         <h1 className="standard">About</h1>
-        <TLDRSwitch handleChange={handleChange} />
+        <TLDRSwitch handleChange={handleChange} isChecked={tldrMode} />
       </header>
       {tldrMode ? <ShortArticle /> : <LongArticle />}
     </main>

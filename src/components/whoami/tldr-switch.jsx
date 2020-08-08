@@ -1,10 +1,18 @@
 import React from "react";
 
-function Switch({ handleChange }) {
+function Switch({ handleChange, isChecked }) {
+  let classes = "toggle pointer no-select";
+  if (isChecked) {
+    classes += " checked";
+  }
+
   return (
     <div>
-      <label htmlFor="tldr">tldr;</label>
-      <input type="checkbox" name="tldr" onChange={handleChange} />
+      <label>tldr?</label>
+      <div className={classes} onClick={handleChange}>
+        <div className="toggle-track"></div>
+        <div className="toggle-thumb"></div>
+      </div>
     </div>
   );
 }
