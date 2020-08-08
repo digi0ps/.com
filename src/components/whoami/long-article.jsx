@@ -15,12 +15,12 @@ function LongArticle() {
         choice of frameworks.
       </p>
       <p>
-        Currently I'm at <OLA href="https://www.gojek.io/">gojek</OLA> where we
-        try to provide the best pickup experience for the customer, which means
-        I look at latitudes and longitudes everyday. My daily work includes
-        dealing with numerous distributed systems written in Clojure, Golang,
-        and Ruby, pulling messages from Kafka, looking at graphs crossing 100k
-        rpm and writing clean readable code.
+        Currently I'm working at <OLA href="https://www.gojek.io/">gojek</OLA>{" "}
+        where we try to provide the best pickup experience for the customer,
+        which means I look at latitudes and longitudes everyday. My daily work
+        includes dealing with numerous distributed systems written in Clojure,
+        Golang, and Ruby, pulling messages from Kafka, looking at graphs
+        crossing 100k rpm and writing clean readable code.
       </p>
       <p>
         Apart from work, I love COFFEE. I love to savour and make various
