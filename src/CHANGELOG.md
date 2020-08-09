@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v0.3.1 - August 9th 2020
+- Fixed typo in Contact
+
 ### v0.3.0 - August 8th 2020
 - Added grab my resume
 - Added a TLDR toggle to whoami

@@ -20,7 +20,7 @@ function Contact() {
             <span className="list-icon">
               <Mail color="currentcolor" size={"1.8rem"} />
             </span>
-            <span className="hide-1120">u can drop me a mail at </span>
+            <span className="hide-1120">You can drop me a mail at </span>
             <OLA color="gmail" href="mailto:sriru1998@gmail.com">
               sriru1998 at gmail.com
             </OLA>
